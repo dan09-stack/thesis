@@ -20,9 +20,13 @@ const app = initializeApp(firebaseConfig);
 const AuthScreen = ({ email, setEmail, password, setPassword, isLogin, setIsLogin, handleAuthentication }) => {
   return (
     <View style={styles.authContainer}>
+<<<<<<< HEAD
       <Text>Dan - Done</Text>
       <Text>ron - Done</Text>
       <Text>sample</Text>
+=======
+      <Text>Dan - Don</Text>
+>>>>>>> 9345f9d (name edit)
       <Text style={styles.title}>{isLogin ? 'Login' : 'Sign Up'}</Text>
 
       <TextInput
