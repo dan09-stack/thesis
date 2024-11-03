@@ -20,7 +20,7 @@ const app = initializeApp(firebaseConfig);
 const AuthScreen = ({ email, setEmail, password, setPassword, isLogin, setIsLogin, handleAuthentication }) => {
   return (
     <View style={styles.authContainer}>
-      <Text>Dan - Don</Text>
+      <Text>sample - Done</Text>
       <Text style={styles.title}>{isLogin ? 'Login' : 'Sign Up'}</Text>
 
       <TextInput
