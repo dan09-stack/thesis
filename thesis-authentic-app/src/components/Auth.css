@@ -1,0 +1,86 @@
+/* src/components/Auth.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #29743f;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full viewport height */
+    margin: 0;                /* Remove default margin */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;    /* Stack items vertically */
+    justify-content: center;    /* Center items vertically */
+    align-items: center;        /* Center items horizontally */
+    gap: 20px;                 /* Space between forms */
+  }
+  
+  form {
+    background: white;
+    padding: 20px;
+    margin: 0;                 /* Remove margin */
+    max-width: 400px;         /* Set a max width */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  /* Change placeholder color */
+input::placeholder {
+    color: #aaa; /* Change this to your preferred color */
+  }
+  
+  /* Change border color and background color on hover */
+  input:hover {
+    border-color: #007bff; /* Change border color on hover */
+    background-color: #f0f8ff; /* Change background color on hover */
+  }
+  
+  /* Hide text inside input field when hovered */
+  input:hover:focus {
+    color: transparent; /* Hide the input text */
+  }
+  
+  input:hover:focus::placeholder {
+    color: transparent; /* Hide the placeholder text as well */
+  }

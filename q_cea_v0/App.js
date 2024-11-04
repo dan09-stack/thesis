@@ -22,6 +22,7 @@ const AuthScreen = ({ email, setEmail, password, setPassword, isLogin, setIsLogi
     <View style={styles.authContainer}>
       <Text>Dan - Done</Text>
       <Text>Kier - Done</Text>
+      <Text>Seandrix - Done</Text>
       <Text>sample</Text>
       <Text>sample - Done</Text>
       <Text style={styles.title}>{isLogin ? 'Login' : 'Sign Up'}</Text>
