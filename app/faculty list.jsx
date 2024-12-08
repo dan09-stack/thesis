@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   title: {
     color: 'white',
     fontSize: 18,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto',
     marginBottom: 10,
     textAlign: 'center',
   },
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   headerText: {
     color: 'white',
     fontSize: 16,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto',
     textAlign: 'center',
   },
   row: {
@@ -136,6 +136,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: 'white',
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   status: {
     flex: 1,

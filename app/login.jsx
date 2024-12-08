@@ -113,8 +113,6 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 28,
     fontFamily: 'Roboto',
-    color: '#000000',
-    textShadow: '2px 2px 20px black',
     marginBottom: 30,
   },
   input: {

@@ -186,8 +186,8 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 28,
-    color: '#000',
     marginBottom: 30,
+    fontFamily: 'Roboto',
   },
   input: {
     width: '100%',
